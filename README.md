@@ -14,7 +14,7 @@ Step 2: Once you finish installing all of them,  execute the program final_code.
 Step 3: Open a new command prompt and type commands related to net, ssh or rdp. (If the any of these processes are running at any time from 10 PM to 5 AM then it would capture those process along with who ran those processes and what command was used).
 Step 4: Once done come back to the command prompt where you executed the code and stop it by pressing cntrl+c. 
 Step 5: Now go to output.txt file to see what you have captured. 
-![image](https://user-images.githubusercontent.com/38780740/116931514-10c94b80-ac2f-11eb-8229-79f2ed86ab7e.png)
+
 
 ##Result
 
