@@ -12,7 +12,7 @@ python -m pip install PyPiWin32
 •	pip install win32evtlog
 ### Step 2: 
 Once you finish installing all of them,  execute the program final_code.py and save the output into a notepad file. Please see below on how to compile and save it the output to .txt file. 
-## Use: python final_code.py > path where you want to save your output\output.txt
+### Use: python final_code.py > path where you want to save your output\output.txt
 ### Step 3: 
 Open a new command prompt and type commands related to net, ssh or rdp. (If the any of these processes are running at any time from 10 PM to 5 AM then it would capture those process along with who ran those processes and what command was used).
 ### Step 4:
