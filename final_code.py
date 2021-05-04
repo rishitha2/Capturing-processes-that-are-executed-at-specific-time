@@ -23,8 +23,7 @@ while True:
                 print ('Time Generated:', event.TimeGenerated)
                 print ('Source Name:', event.SourceName)
                 print ('Event ID:', event.EventID)
-                print ('Event Type:', event.EventType)
-                print ('Source Name:', event.SourceName)
+                print ('Event Type:', event.EventType) 
                 data = event.StringInserts
                 time = event.TimeGenerated.hour
                 if ((time >= 22) or (time <= 5)):
