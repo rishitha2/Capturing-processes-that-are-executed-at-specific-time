@@ -4,8 +4,6 @@ import operator
 import datetime
 import pandas as pd
 
-
-
 server = 'DESKTOP-81CL7DC' # name of the target computer to get event logs
 logtype = 'Security'
 hand = win32evtlog.OpenEventLog(server,logtype)
