@@ -4,34 +4,6 @@ import operator
 import datetime
 import pandas as pd
 
-# d1 = datetime.datetime.now()
-# d2 = d1.replace(hour=22)
-# d3 = d2.replace(minute=00)
-# d4 = d3.replace(second=00)
-# d5 = d4.replace(microsecond=000000)
-# d6 = d5.replace(hour=5)
-# if (d1.hour <=12):
-    # print("")
-# else:
-    # d7 = d6 + datetime.timedelta(days=1)
-    
-# difference = (d7 - d5)
-# minutes = difference.total_seconds()/60
-# print(minutes)
-
-# df = pd.DataFrame({
-    # 'year': [d1.year,d5.year,d7.year],
-    # 'month': [d1.month,d5.month,d7.month],
-    # 'day': [d1.day,d5.day,d7.day],
-    # 'hour': [d1.hour,d5.hour,d7.hour],
-    # 'minute': [d1.minute,d5.minute,d7.minute],
-    # 'microsecond': [d1.microsecond,d5.microsecond,d7.microsecond]})
-    
-# def time(rows):
-    # return (pd.Timestamp(rows.year, rows.month,
-                         # rows.day, rows.hour, rows.minute))
-                       
-# df['new_time'] = df.apply(time, axis = 'columns')
 
 
 server = 'DESKTOP-81CL7DC' # name of the target computer to get event logs
